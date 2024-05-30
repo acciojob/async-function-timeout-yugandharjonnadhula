@@ -6,7 +6,7 @@ document.getElementById("btn").addEventListener("click",async()=>{
 		alert("please fill in all fields and provide a valid delay and text");
 		return;
 	}
-	await dealyFunction(delay);
+	await delayFunction(delay);
 	document.getElementById("output").innerText = text;
 });
 function delayFunction(delay) {
